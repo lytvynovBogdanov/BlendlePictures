@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -509,7 +509,7 @@
 		06D0DC9790125E232E072FA404CE0F52 /* FKFlickrPhotosGeoRemoveLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGeoRemoveLocation.h; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoRemoveLocation.h; sourceTree = "<group>"; };
 		079DA753473E2686D93ABDE590BA6DA5 /* FKFlickrPhotosPeopleAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosPeopleAdd.h; path = Classes/Model/Generated/Photos/People/FKFlickrPhotosPeopleAdd.h; sourceTree = "<group>"; };
 		07A3B4055FBB6493B7B8158D928DECD8 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		0A631D119D9BED57992A90EDDD5AF21A /* FlickrKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlickrKit.framework; path = FlickrKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A631D119D9BED57992A90EDDD5AF21A /* FlickrKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlickrKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B558E9A273E74097A8A1FB86DD01527 /* Pods-BlendlePictures-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlendlePictures-Info.plist"; sourceTree = "<group>"; };
 		0B89830CA4D0C4B22425B27BC2BF6F44 /* FlickrKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlickrKit-dummy.m"; sourceTree = "<group>"; };
 		0CC6C182A98CC0E9F0C1B18CC320E7CE /* FKFlickrPhotosetsCommentsDeleteComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosetsCommentsDeleteComment.h; path = Classes/Model/Generated/Photosets/Comments/FKFlickrPhotosetsCommentsDeleteComment.h; sourceTree = "<group>"; };
@@ -640,7 +640,7 @@
 		4917E67C7CB7A5DA08F35A4B64549CCC /* FKFlickrPhotosetsCommentsEditComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosetsCommentsEditComment.h; path = Classes/Model/Generated/Photosets/Comments/FKFlickrPhotosetsCommentsEditComment.h; sourceTree = "<group>"; };
 		493E5EB0E3976EC1F1094B83D42B4F9C /* FKFlickrPlacesPlacesForTags.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPlacesPlacesForTags.m; path = Classes/Model/Generated/Places/FKFlickrPlacesPlacesForTags.m; sourceTree = "<group>"; };
 		49CEC817A4ACB9FC041A556AF382C172 /* FKFlickrPlacesPlacesForContacts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPlacesPlacesForContacts.h; path = Classes/Model/Generated/Places/FKFlickrPlacesPlacesForContacts.h; sourceTree = "<group>"; };
-		4A2FFA52EC997774A46D075A0897DD50 /* Pods_BlendlePictures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlendlePictures.framework; path = "Pods-BlendlePictures.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2FFA52EC997774A46D075A0897DD50 /* Pods_BlendlePictures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlendlePictures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9EEF82EDF270199C0BF1A312C8CE97 /* FKFlickrStatsGetTotalViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrStatsGetTotalViews.h; path = Classes/Model/Generated/Stats/FKFlickrStatsGetTotalViews.h; sourceTree = "<group>"; };
 		4BE7E7E84A87D1E9302BA722A3F86FA7 /* FKFlickrPhotosCommentsDeleteComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosCommentsDeleteComment.m; path = Classes/Model/Generated/Photos/Comments/FKFlickrPhotosCommentsDeleteComment.m; sourceTree = "<group>"; };
 		4C46D7860807DC95FCC8F7711DE7F5CB /* Pods-BlendlePictures.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlendlePictures.modulemap"; sourceTree = "<group>"; };
@@ -803,7 +803,7 @@
 		9B445BCBBA27AF28BE6BEC42C33C1A1C /* FKFlickrPhotosNotesAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosNotesAdd.m; path = Classes/Model/Generated/Photos/Notes/FKFlickrPhotosNotesAdd.m; sourceTree = "<group>"; };
 		9C7E80D3B7E0F6B483A3EC94AACE80A5 /* FKFlickrPhotosPeopleDeleteCoords.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosPeopleDeleteCoords.m; path = Classes/Model/Generated/Photos/People/FKFlickrPhotosPeopleDeleteCoords.m; sourceTree = "<group>"; };
 		9CBE806720C63A970C2D9C57F67CBE63 /* FKFlickrPlacesGetInfoByUrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPlacesGetInfoByUrl.h; path = Classes/Model/Generated/Places/FKFlickrPlacesGetInfoByUrl.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EAAB20F1AA2C4B029C267DCD7E05016 /* FKFlickrGroupsPoolsGetGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGroupsPoolsGetGroups.m; path = Classes/Model/Generated/Groups/Pools/FKFlickrGroupsPoolsGetGroups.m; sourceTree = "<group>"; };
 		9F6F0B9E96C0A4DA9058BB5221142F94 /* FKFlickrPhotosRecentlyUpdated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosRecentlyUpdated.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosRecentlyUpdated.h; sourceTree = "<group>"; };
 		9FF57C8128ED435C49780DE09A978698 /* FKFlickrPhotosGeoSetPerms.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGeoSetPerms.m; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoSetPerms.m; sourceTree = "<group>"; };
@@ -890,7 +890,7 @@
 		CDEC17281CF949A9D4E2B8CF541B4167 /* FKFlickrPhotosetsRemovePhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsRemovePhoto.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsRemovePhoto.m; sourceTree = "<group>"; };
 		CED742E53144D32105D97FDA6E3449FB /* FKFlickrPhotosSetTags.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosSetTags.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosSetTags.m; sourceTree = "<group>"; };
 		CEF0EA67730721941DBAED5720425089 /* FKFlickrGroupsPoolsGetContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGroupsPoolsGetContext.m; path = Classes/Model/Generated/Groups/Pools/FKFlickrGroupsPoolsGetContext.m; sourceTree = "<group>"; };
-		CF3CAE5FAFDD4A4B6550BC0D8503960C /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3CAE5FAFDD4A4B6550BC0D8503960C /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE16782F9A563DD0A380ED83733EB9B /* FKFlickrStatsGetPhotosetStats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrStatsGetPhotosetStats.h; path = Classes/Model/Generated/Stats/FKFlickrStatsGetPhotosetStats.h; sourceTree = "<group>"; };
 		D0294D994D9FF3478E7017D981962D5E /* FKFlickrTagsGetListUserRaw.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrTagsGetListUserRaw.m; path = Classes/Model/Generated/Tags/FKFlickrTagsGetListUserRaw.m; sourceTree = "<group>"; };
 		D0843D5C4D6B3428478035FCC832368A /* FKFlickrPhotosGetAllContexts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGetAllContexts.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetAllContexts.h; sourceTree = "<group>"; };
@@ -1506,7 +1506,6 @@
 				644044056CC43053D060756ACE412456 /* FlickrKit.m */,
 				3CCBCD2C3787C817B98B383AE7FE411C /* Support Files */,
 			);
-			name = FlickrKit;
 			path = FlickrKit;
 			sourceTree = "<group>";
 		};
@@ -1544,7 +1543,6 @@
 				43E4746FC17D37814B9184D78EE23CC2 /* Resources */,
 				0EDBBDEF62C7440848AF5750E28609CB /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1915,13 +1913,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -2247,11 +2246,7 @@
 				INFOPLIST_FILE = "Target Support Files/FlickrKit/FlickrKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FlickrKit/FlickrKit.modulemap";
 				PRODUCT_MODULE_NAME = FlickrKit;
 				PRODUCT_NAME = FlickrKit;
@@ -2284,11 +2279,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2321,11 +2312,7 @@
 				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = SVProgressHUD;
 				PRODUCT_NAME = SVProgressHUD;
@@ -2356,11 +2343,7 @@
 				INFOPLIST_FILE = "Target Support Files/FlickrKit/FlickrKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FlickrKit/FlickrKit.modulemap";
 				PRODUCT_MODULE_NAME = FlickrKit;
 				PRODUCT_NAME = FlickrKit;
@@ -2378,6 +2361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2427,8 +2411,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -2452,11 +2435,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2490,11 +2469,7 @@
 				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = SVProgressHUD;
 				PRODUCT_NAME = SVProgressHUD;
@@ -2513,6 +2488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

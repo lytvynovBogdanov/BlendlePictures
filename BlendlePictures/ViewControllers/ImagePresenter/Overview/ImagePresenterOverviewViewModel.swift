@@ -17,11 +17,26 @@ class ImagePresenterOverviewViewModel {
     
     var picturesUpdated: (() -> Void)?
     
+    var lastLoadedPage = 0
+    
+    private var isLoadingData = false
+    
     init() {
         pictures = []
-        FlickrApi.fetchPhotos { [weak self] (urls, error) in
+        loadData()
+    }
+    
+    func loadData() {
+        if isLoadingData {
+            return
+        }
+        
+        lastLoadedPage += 1
+        isLoadingData = true
+        FlickrApi.fetchPhotos(with: lastLoadedPage) { [weak self] (urls, error) in
+            self?.isLoadingData = false
             if let pictures = urls?.map({ Picture(url: $0) }) {
-                self?.pictures = pictures
+                self?.pictures += pictures
             }
         }
     }

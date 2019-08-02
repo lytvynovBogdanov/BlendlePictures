@@ -40,5 +40,10 @@ extension ImagePresenterOverviewCollectionViewController {
         
         return cell
     }
-
+    
+    override func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        if indexPath.row == viewModel.numberOfItems(in: indexPath.section) - 1 {
+            viewModel.loadData()
+        }
+    }
 }

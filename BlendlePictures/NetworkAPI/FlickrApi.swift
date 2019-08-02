@@ -13,11 +13,11 @@ struct FlickrApi {
     private static let APIKey = "92111faaf0ac50706da05a1df2e85d82"
     private static let APISecret = "89ded1035d7ceb3a"
     
-    static func fetchPhotos(with complition: @escaping (([URL]?, Error?) -> Void)) {
+    static func fetchPhotos(with page: Int, complition: @escaping (([URL]?, Error?) -> Void)) {
         let flickr = FlickrKit.shared()
         flickr.initialize(withAPIKey: APIKey, sharedSecret: APISecret)
         let flickrInterestingness = FKFlickrInterestingnessGetList()
-//        flickrInterestingness.page = 1
+        flickrInterestingness.page = String(page)
 //        flickrInterestingness.per_page = 100
         flickr.call(flickrInterestingness) { (response, error) in
             if let error = error {
