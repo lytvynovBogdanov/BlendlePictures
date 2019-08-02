@@ -12,12 +12,29 @@ import UIKit
 
 class ImagePresenterOverviewCollectionViewController: UICollectionViewController {
     
+    var viewModel = ImagePresenterOverviewViewModel()
+    
     init() {
-        super.init(collectionViewLayout: UICollectionViewFlowLayout())
+        let layout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
+        layout.itemSize = CGSize(width: 80, height: 80)
+        
+        super.init(collectionViewLayout: layout)
+        
+        collectionView.backgroundColor = .white
+        bind()
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func bind() {
+        viewModel.picturesUpdated = { [weak self] in
+            DispatchQueue.main.async {
+                self?.collectionView.reloadData()
+            }
+        }
     }
     
     override func viewDidLoad() {
@@ -27,7 +44,8 @@ class ImagePresenterOverviewCollectionViewController: UICollectionViewController
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-        self.collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: ImagePresenterOverviewCollectionViewController.classString)
+        
+        registerCell(collectionView)
 
         // Do any additional setup after loading the view.
     }
@@ -41,27 +59,6 @@ class ImagePresenterOverviewCollectionViewController: UICollectionViewController
         // Pass the selected object to the new view controller.
     }
     */
-
-    // MARK: UICollectionViewDataSource
-
-    override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-
-    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of items
-        return 0
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ImagePresenterOverviewCollectionViewController.classString, for: indexPath)
-    
-        // Configure the cell
-    
-        return cell
-    }
 
     // MARK: UICollectionViewDelegate
 
