@@ -17,8 +17,6 @@ extension ImagePresenterOverviewCollectionViewController {
     func registerCell(_ collectionView: UICollectionView) {
         let nib = UINib(nibName: feedPictureIdentifier, bundle: nil)
         collectionView.register(nib, forCellWithReuseIdentifier: feedPictureIdentifier)
-        //        self.collectionView.register(FeedPicturesCollectionViewCell.self, forCellWithReuseIdentifier: FeedPicturesCollectionViewCell.classString)
-
     }
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {

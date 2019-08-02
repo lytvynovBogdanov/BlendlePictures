@@ -1,20 +1,16 @@
 PODS:
   - FlickrKit (1.0.9)
-  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - FlickrKit
-  - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FlickrKit
-    - SVProgressHUD
 
 SPEC CHECKSUMS:
   FlickrKit: 79ffaf64a12293ba2b1aa8a2e53a4958cb113256
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 8d6a4612ccba526fd8c398ce7aecc299b45ea55e
+PODFILE CHECKSUM: 14c9ec67e602d1f2a86be958d01cd2ad754466fe
 
 COCOAPODS: 1.6.1

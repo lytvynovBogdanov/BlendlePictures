@@ -18,7 +18,7 @@ struct FlickrApi {
         flickr.initialize(withAPIKey: APIKey, sharedSecret: APISecret)
         let flickrInterestingness = FKFlickrInterestingnessGetList()
         flickrInterestingness.page = String(page)
-//        flickrInterestingness.per_page = 100
+
         flickr.call(flickrInterestingness) { (response, error) in
             if let error = error {
                 return complition(nil, error)

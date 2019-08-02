@@ -310,14 +310,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FlickrKit/FlickrKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlickrKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
