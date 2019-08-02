@@ -12,9 +12,11 @@
 		49D17F9C22F412C400ED1B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D17F9A22F412C400ED1B90 /* Main.storyboard */; };
 		49D17F9E22F412C600ED1B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D17F9D22F412C600ED1B90 /* Assets.xcassets */; };
 		49D17FA122F412C600ED1B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D17F9F22F412C600ED1B90 /* LaunchScreen.storyboard */; };
+		A73B8FE6F4C2387E77115932 /* libPods-BlendlePictures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6CDC200FBDBD302DFF27B1 /* libPods-BlendlePictures.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F2DFE16498206CEB2E23225 /* Pods-BlendlePictures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlendlePictures.debug.xcconfig"; path = "Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures.debug.xcconfig"; sourceTree = "<group>"; };
 		49D17F9322F412C400ED1B90 /* BlendlePictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendlePictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D17F9622F412C400ED1B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49D17F9822F412C400ED1B90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		49D17F9D22F412C600ED1B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D17FA022F412C600ED1B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49D17FA222F412C600ED1B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FB092668693ADB07F1B821 /* Pods-BlendlePictures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlendlePictures.release.xcconfig"; path = "Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures.release.xcconfig"; sourceTree = "<group>"; };
+		9F6CDC200FBDBD302DFF27B1 /* libPods-BlendlePictures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlendlePictures.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73B8FE6F4C2387E77115932 /* libPods-BlendlePictures.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02CAD601299F0BA7E9D06A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F2DFE16498206CEB2E23225 /* Pods-BlendlePictures.debug.xcconfig */,
+				53FB092668693ADB07F1B821 /* Pods-BlendlePictures.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		49D17F8A22F412C400ED1B90 = {
 			isa = PBXGroup;
 			children = (
 				49D17F9522F412C400ED1B90 /* BlendlePictures */,
 				49D17F9422F412C400ED1B90 /* Products */,
+				02CAD601299F0BA7E9D06A3F /* Pods */,
+				B917B6CB190D710281B7CE73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +81,14 @@
 			path = BlendlePictures;
 			sourceTree = "<group>";
 		};
+		B917B6CB190D710281B7CE73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F6CDC200FBDBD302DFF27B1 /* libPods-BlendlePictures.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49D17FA522F412C600ED1B90 /* Build configuration list for PBXNativeTarget "BlendlePictures" */;
 			buildPhases = (
+				1276152010C99F7B80A69C08 /* [CP] Check Pods Manifest.lock */,
 				49D17F8F22F412C400ED1B90 /* Sources */,
 				49D17F9022F412C400ED1B90 /* Frameworks */,
 				49D17F9122F412C400ED1B90 /* Resources */,
+				0EECA047793CBC83DC5AA1FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EECA047793CBC83DC5AA1FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1276152010C99F7B80A69C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlendlePictures-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49D17F8F22F412C400ED1B90 /* Sources */ = {
@@ -280,6 +354,7 @@
 		};
 		49D17FA622F412C600ED1B90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2DFE16498206CEB2E23225 /* Pods-BlendlePictures.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +372,7 @@
 		};
 		49D17FA722F412C600ED1B90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FB092668693ADB07F1B821 /* Pods-BlendlePictures.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
