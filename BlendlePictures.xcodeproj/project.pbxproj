@@ -8,10 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		49D17F9722F412C400ED1B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17F9622F412C400ED1B90 /* AppDelegate.swift */; };
-		49D17F9922F412C400ED1B90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17F9822F412C400ED1B90 /* ViewController.swift */; };
 		49D17F9C22F412C400ED1B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D17F9A22F412C400ED1B90 /* Main.storyboard */; };
 		49D17F9E22F412C600ED1B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D17F9D22F412C600ED1B90 /* Assets.xcassets */; };
 		49D17FA122F412C600ED1B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D17F9F22F412C600ED1B90 /* LaunchScreen.storyboard */; };
+		49D17FAA22F4157600ED1B90 /* ImageSourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FA922F4157600ED1B90 /* ImageSourceTableViewController.swift */; };
+		49D17FAD22F415B600ED1B90 /* ImageSourceTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FAC22F415B600ED1B90 /* ImageSourceTableDataSource.swift */; };
+		49D17FAF22F415C000ED1B90 /* ImageSourceTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FAE22F415C000ED1B90 /* ImageSourceTableDelegate.swift */; };
+		49D17FB122F415CD00ED1B90 /* ImageSourceTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FB022F415CD00ED1B90 /* ImageSourceTableViewModel.swift */; };
+		49D17FB422F416DA00ED1B90 /* ImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FB322F416DA00ED1B90 /* ImageSource.swift */; };
+		49D17FB722F4194800ED1B90 /* ImageSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FB622F4194800ED1B90 /* ImageSourceManager.swift */; };
+		49D17FBA22F41A0C00ED1B90 /* NSObject+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FB922F41A0C00ED1B90 /* NSObject+Common.swift */; };
+		49D17FBF22F41E5C00ED1B90 /* ImagePresenterOverviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FBD22F41E5C00ED1B90 /* ImagePresenterOverviewCollectionViewController.swift */; };
+		49D17FC222F420E600ED1B90 /* ImagePresenterOverviewCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FC122F420E600ED1B90 /* ImagePresenterOverviewCollectionDataSource.swift */; };
+		49D17FC422F420FC00ED1B90 /* ImagePresenterOverviewCollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D17FC322F420FC00ED1B90 /* ImagePresenterOverviewCollectionDelegate.swift */; };
 		A73B8FE6F4C2387E77115932 /* libPods-BlendlePictures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6CDC200FBDBD302DFF27B1 /* libPods-BlendlePictures.a */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +28,20 @@
 		0F2DFE16498206CEB2E23225 /* Pods-BlendlePictures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlendlePictures.debug.xcconfig"; path = "Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures.debug.xcconfig"; sourceTree = "<group>"; };
 		49D17F9322F412C400ED1B90 /* BlendlePictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendlePictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D17F9622F412C400ED1B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49D17F9822F412C400ED1B90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49D17F9B22F412C400ED1B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49D17F9D22F412C600ED1B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D17FA022F412C600ED1B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49D17FA222F412C600ED1B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D17FA922F4157600ED1B90 /* ImageSourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSourceTableViewController.swift; sourceTree = "<group>"; };
+		49D17FAC22F415B600ED1B90 /* ImageSourceTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSourceTableDataSource.swift; sourceTree = "<group>"; };
+		49D17FAE22F415C000ED1B90 /* ImageSourceTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSourceTableDelegate.swift; sourceTree = "<group>"; };
+		49D17FB022F415CD00ED1B90 /* ImageSourceTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSourceTableViewModel.swift; sourceTree = "<group>"; };
+		49D17FB322F416DA00ED1B90 /* ImageSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSource.swift; sourceTree = "<group>"; };
+		49D17FB622F4194800ED1B90 /* ImageSourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSourceManager.swift; sourceTree = "<group>"; };
+		49D17FB922F41A0C00ED1B90 /* NSObject+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Common.swift"; sourceTree = "<group>"; };
+		49D17FBD22F41E5C00ED1B90 /* ImagePresenterOverviewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePresenterOverviewCollectionViewController.swift; sourceTree = "<group>"; };
+		49D17FC122F420E600ED1B90 /* ImagePresenterOverviewCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePresenterOverviewCollectionDataSource.swift; sourceTree = "<group>"; };
+		49D17FC322F420FC00ED1B90 /* ImagePresenterOverviewCollectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePresenterOverviewCollectionDelegate.swift; sourceTree = "<group>"; };
 		53FB092668693ADB07F1B821 /* Pods-BlendlePictures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlendlePictures.release.xcconfig"; path = "Target Support Files/Pods-BlendlePictures/Pods-BlendlePictures.release.xcconfig"; sourceTree = "<group>"; };
 		9F6CDC200FBDBD302DFF27B1 /* libPods-BlendlePictures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlendlePictures.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -46,7 +64,6 @@
 				0F2DFE16498206CEB2E23225 /* Pods-BlendlePictures.debug.xcconfig */,
 				53FB092668693ADB07F1B821 /* Pods-BlendlePictures.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -72,13 +89,78 @@
 			isa = PBXGroup;
 			children = (
 				49D17F9622F412C400ED1B90 /* AppDelegate.swift */,
-				49D17F9822F412C400ED1B90 /* ViewController.swift */,
+				49D17FB822F419F600ED1B90 /* Extensions */,
+				49D17FA822F4153D00ED1B90 /* ViewControllers */,
+				49D17FB522F4191800ED1B90 /* Managers */,
+				49D17FB222F416CD00ED1B90 /* Models */,
 				49D17F9A22F412C400ED1B90 /* Main.storyboard */,
 				49D17F9D22F412C600ED1B90 /* Assets.xcassets */,
 				49D17F9F22F412C600ED1B90 /* LaunchScreen.storyboard */,
 				49D17FA222F412C600ED1B90 /* Info.plist */,
 			);
 			path = BlendlePictures;
+			sourceTree = "<group>";
+		};
+		49D17FA822F4153D00ED1B90 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				49D17FBB22F41DEB00ED1B90 /* ImagePresenter */,
+				49D17FAB22F4158B00ED1B90 /* ImageSource */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		49D17FAB22F4158B00ED1B90 /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				49D17FA922F4157600ED1B90 /* ImageSourceTableViewController.swift */,
+				49D17FAC22F415B600ED1B90 /* ImageSourceTableDataSource.swift */,
+				49D17FAE22F415C000ED1B90 /* ImageSourceTableDelegate.swift */,
+				49D17FB022F415CD00ED1B90 /* ImageSourceTableViewModel.swift */,
+			);
+			path = ImageSource;
+			sourceTree = "<group>";
+		};
+		49D17FB222F416CD00ED1B90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49D17FB322F416DA00ED1B90 /* ImageSource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49D17FB522F4191800ED1B90 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				49D17FB622F4194800ED1B90 /* ImageSourceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		49D17FB822F419F600ED1B90 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49D17FB922F41A0C00ED1B90 /* NSObject+Common.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49D17FBB22F41DEB00ED1B90 /* ImagePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				49D17FBC22F41E3600ED1B90 /* Overview */,
+			);
+			path = ImagePresenter;
+			sourceTree = "<group>";
+		};
+		49D17FBC22F41E3600ED1B90 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				49D17FBD22F41E5C00ED1B90 /* ImagePresenterOverviewCollectionViewController.swift */,
+				49D17FC122F420E600ED1B90 /* ImagePresenterOverviewCollectionDataSource.swift */,
+				49D17FC322F420FC00ED1B90 /* ImagePresenterOverviewCollectionDelegate.swift */,
+			);
+			path = Overview;
 			sourceTree = "<group>";
 		};
 		B917B6CB190D710281B7CE73 /* Frameworks */ = {
@@ -209,7 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D17F9922F412C400ED1B90 /* ViewController.swift in Sources */,
+				49D17FB722F4194800ED1B90 /* ImageSourceManager.swift in Sources */,
+				49D17FBF22F41E5C00ED1B90 /* ImagePresenterOverviewCollectionViewController.swift in Sources */,
+				49D17FAF22F415C000ED1B90 /* ImageSourceTableDelegate.swift in Sources */,
+				49D17FB122F415CD00ED1B90 /* ImageSourceTableViewModel.swift in Sources */,
+				49D17FC222F420E600ED1B90 /* ImagePresenterOverviewCollectionDataSource.swift in Sources */,
+				49D17FAA22F4157600ED1B90 /* ImageSourceTableViewController.swift in Sources */,
+				49D17FBA22F41A0C00ED1B90 /* NSObject+Common.swift in Sources */,
+				49D17FC422F420FC00ED1B90 /* ImagePresenterOverviewCollectionDelegate.swift in Sources */,
+				49D17FAD22F415B600ED1B90 /* ImageSourceTableDataSource.swift in Sources */,
+				49D17FB422F416DA00ED1B90 /* ImageSource.swift in Sources */,
 				49D17F9722F412C400ED1B90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
